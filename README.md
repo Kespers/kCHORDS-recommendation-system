@@ -1,4 +1,4 @@
-# 1 kCHORDS Recommendation System  
+kCHORDS Recommendation System  
 
 A content-based recommendation system for [kCHORDS](https://github.com/Kespers/kCHORDS), designed to suggest the next songs to play based on previous selections.  
 
@@ -63,7 +63,7 @@ Given a list of YouTube links to songs, the system follows these steps:
 4. **Extract Genre**  
    Since the Spotify API does not provide song-specific genres (only artist-related genres), the system identifies the genre through:  
 
-   - **Spotify/Get_Genre_By_Scraped_Artist**: Scrapes the [chords web-site](https://github.com/Kespers/kCHORDS/tree/main/chords-scraper) to extract the artist’s name and fetches the genre from Spotify.  
+   - **Spotify/Get_Genre_By_Scraped_Artist**: [Scrapes](https://github.com/Kespers/kCHORDS/tree/main/chords-scraper) the chords web-site to extract the artist’s name and fetches the genre from Spotify.  
    - **Spotify/Get_Genre_By_Possible_Artist**: If the first method fails, the system applies **SpaCy NLP** to extract artist names from YouTube metadata (title, description, tags). The most likely artist is then queried in the Spotify API to determine the most common genre.  
 
 5. **Find Similar Songs**  
