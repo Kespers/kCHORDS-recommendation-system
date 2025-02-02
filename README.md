@@ -35,6 +35,8 @@ A custom dataset is generated from the [Spotify Tracks Dataset](https://huggingf
 - Keeping only the most popular genres  
 - Applying one-hot encoding to the "genre" column  
 
+This dataset will be used to calculate a similarity score with the songs given as input
+
 ## 2.1.2 Song Recommendation  
 
 Given a list of YouTube links to songs, the system follows these steps:  
@@ -66,10 +68,11 @@ Given a list of YouTube links to songs, the system follows these steps:
    - **Spotify/Get_Genre_By_Scraped_Artist**: [Scrapes](https://github.com/Kespers/kCHORDS/tree/main/chords-scraper) the chords web-site to extract the artist’s name and fetches the genre from Spotify.  
    - **Spotify/Get_Genre_By_Possible_Artist**: If the first method fails, the system applies **SpaCy NLP** to extract artist names from YouTube metadata (title, description, tags). The most likely artist is then queried in the Spotify API to determine the most common genre.  
 
-5. **Find Similar Songs**  
-   - Computes similarity scores between the input tracks and the dataset.  
+5. Stores the results in a Pandas DataFrame matching the [[#2.1.1 Dataset Creation |dataset|]] column structure. 
+
+6. **Find Similar Songs**  
+   - Computes similarity scores between the two dataframe
    - Recommends the top 5 most similar tracks, ranked by similarity.  
-   - Stores the results in a Pandas DataFrame matching the modified Hugging Face dataset structure.  
 
 ## 2.1.3 Retrieving Recommended Song Details  
 
