@@ -76,4 +76,4 @@ Given a list of YouTube links to songs, the system follows these steps:
 
 ## 2.1.3 Retrieving Recommended Song Details  
 
-Using the Spotify API, the system retrieves the **song name, album, and artist** for the recommended tracks.  
+Using the Spotify API, the system retrieves the song: **link, name, album, and artist** for the recommended tracks.  
