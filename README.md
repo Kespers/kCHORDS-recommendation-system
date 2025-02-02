@@ -1,6 +1,3 @@
----
-number headings: auto, first-level 1, max 6, 1.1
----
 # 1 kCHORDS Recommendation System  
 
 A content-based recommendation system for [kCHORDS](https://github.com/Kespers/kCHORDS), designed to suggest the next songs to play based on previous selections.  
