@@ -68,7 +68,7 @@ Given a list of YouTube links to songs, the system follows these steps:
    - **Spotify/Get_Genre_By_Scraped_Artist**: [Scrapes](https://github.com/Kespers/kCHORDS/tree/main/chords-scraper) the chords web-site to extract the artist’s name and fetches the genre from Spotify.  
    - **Spotify/Get_Genre_By_Possible_Artist**: If the first method fails, the system applies **SpaCy NLP** to extract artist names from YouTube metadata (title, description, tags). The most likely artist is then queried in the Spotify API to determine the most common genre.  
 
-5. Stores the results in a Pandas DataFrame matching the [[#2.1.1 Dataset Creation |dataset|]] column structure. 
+5. Stores the results in a Pandas DataFrame while maintaining the same column structure as the previously created dataset.
 
 6. **Find Similar Songs**  
    - Computes similarity scores between the two dataframe
