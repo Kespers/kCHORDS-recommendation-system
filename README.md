@@ -2,7 +2,7 @@
 
 A content-based recommendation system for [kCHORDS](https://github.com/Kespers/kCHORDS), designed to suggest the next songs to play based on previous selections.  
 
-## 1.1 Run notebook
+# 1 Run notebook
 clone repo:
 ```bash
 git clone https://github.com/Kespers/kCHORDS-recommendation-system.gittata
@@ -19,7 +19,7 @@ connect to jupyter server:
 http://localhost:9999/notebooks/main.ipynb
 ```
 
-## 1.2 How It Works  
+# 2 How It Works  
 
 The project consists of three main stages:  
 
@@ -27,7 +27,7 @@ The project consists of three main stages:
 2. **Song Recommendation**  
 3. **Retrieving Recommended Song Details**  
 
-### 1.2.1 Dataset Creation  
+## 2.1.1 Dataset Creation  
 
 A custom dataset is generated from the [Spotify Tracks Dataset](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset) by:  
 
@@ -35,7 +35,7 @@ A custom dataset is generated from the [Spotify Tracks Dataset](https://huggingf
 - Keeping only the most popular genres  
 - Applying one-hot encoding to the "genre" column  
 
-### 1.2.2 Song Recommendation  
+## 2.1.2 Song Recommendation  
 
 Given a list of YouTube links to songs, the system follows these steps:  
 
@@ -71,6 +71,6 @@ Given a list of YouTube links to songs, the system follows these steps:
    - Recommends the top 5 most similar tracks, ranked by similarity.  
    - Stores the results in a Pandas DataFrame matching the modified Hugging Face dataset structure.  
 
-### 1.2.3 Retrieving Recommended Song Details  
+## 2.1.3 Retrieving Recommended Song Details  
 
 Using the Spotify API, the system retrieves the **song name, album, and artist** for the recommended tracks.  
