@@ -1,0 +1,27 @@
+[
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=9GFI6Rf-IkI",
+        "Yt_Id": "9GFI6Rf-IkI",
+        "Artists": ["marilyn manson"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=-F7A24f6gNc",
+        "Yt_Id": "-F7A24f6gNc",
+        "Artists": ["iron maiden"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=YlUKcNNmywk",
+        "Yt_Id": "YlUKcNNmywk",
+        "Artists": ["red hot chili peppers"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=htgr3pvBr-I",
+        "Yt_Id": "htgr3pvBr-I",
+        "Artists": ["toto"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=p3Bobi4h-gg",
+        "Yt_Id": "p3Bobi4h-gg",
+        "Artists": ["vasco rossi"]
+    }
+]

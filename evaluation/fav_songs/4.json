@@ -1,0 +1,27 @@
+[
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=FqWBQv7h_3I",
+        "Yt_Id": "FqWBQv7h_3I",
+        "Artists": ["Kenshi Yonezu"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=RCltAg_iK0E",
+        "Yt_Id": "RCltAg_iK0E",
+        "Artists": ["akasaki"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=fp3F6TqBsAU",
+        "Yt_Id": "fp3F6TqBsAU",
+        "Artists": ["plazma"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=FYhxYcXfhYA",
+        "Yt_Id": "FYhxYcXfhYA",
+        "Artists": ["mr. green apple"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=iUUZPdV_fto",
+        "Yt_Id": "iUUZPdV_fto",
+        "Artists": ["SEKAI NO OWARI"]
+    }
+]

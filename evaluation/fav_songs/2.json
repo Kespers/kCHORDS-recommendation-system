@@ -1,0 +1,27 @@
+[
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=OasjwepNJyI",
+        "Yt_Id": "OasjwepNJyI",
+        "Artists": ["max gazze"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=ijEHZufmKU8",
+        "Yt_Id": "ijEHZufmKU8",
+        "Artists": ["fabrizio de andre"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=gRV-GiinWdA",
+        "Yt_Id": "gRV-GiinWdA",
+        "Artists": ["cesare cremonini"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=X6G6UpDgGxk",
+        "Yt_Id": "X6G6UpDgGxk",
+        "Artists": ["alessandro mannarino"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=vkWEvDK45pE",
+        "Yt_Id": "vkWEvDK45pE",
+        "Artists": ["lucio corsi"]
+    }
+]

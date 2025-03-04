@@ -1,0 +1,27 @@
+[
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=7YvAYIJSSZY",
+        "Yt_Id": "7YvAYIJSSZY",
+        "Artists": ["Rockwell"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=3GwjfUFyY6M",
+        "Yt_Id": "3GwjfUFyY6M",
+        "Artists": ["Kool & The Gang"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=htgr3pvBr-I",
+        "Yt_Id": "htgr3pvBr-I",
+        "Artists": ["Toto"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=MA3OVz-dpzI",
+        "Yt_Id": "MA3OVz-dpzI",
+        "Artists": ["Squallor"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=o6aJJ6Q5zhg",
+        "Yt_Id": "o6aJJ6Q5zhg",
+        "Artists": ["TOMMY CASH"]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=X4bgXH3sJ2Q",
+        "Yt_Id": "X4bgXH3sJ2Q",
+        "Artists": ["iron maiden"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=tAGnKpE4NCI",
+        "Yt_Id": "tAGnKpE4NCI",
+        "Artists": ["metallica"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=cDd1BC8uqMM",
+        "Yt_Id": "cDd1BC8uqMM",
+        "Artists": ["mannarino"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=7pOr3dBFAeY",
+        "Yt_Id": "7pOr3dBFAeY",
+        "Artists": ["scorpions"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=hjpF8ukSrvk",
+        "Yt_Id": "hjpF8ukSrvk",
+        "Artists": ["pink floyd"]
+    }
+]

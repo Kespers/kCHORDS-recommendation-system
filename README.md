@@ -1,23 +1,6 @@
-# kCHORDS Recommendation System  
+# 1 kCHORDS Recommendation System  
 
 A content-based recommendation system for [kCHORDS](https://github.com/Kespers/kCHORDS), designed to suggest the next songs to play based on previous selections.  
-
-# 1 Run notebook
-clone repo:
-```bash
-git clone https://github.com/Kespers/kCHORDS-recommendation-system.gittata
-cd kCHORDS-recommendation-system
-```
-
-start container:
-```bash
-docker compose up --build
-```
-
-connect to jupyter server:
-```bash
-http://localhost:9999/notebooks/main.ipynb
-```
 
 # 2 How It Works  
 
@@ -27,7 +10,7 @@ The project consists of three main stages:
 2. **Song Recommendation**  
 3. **Retrieving Recommended Song Details**  
 
-## 2.1.1 Dataset Creation  
+## 2.1 Dataset Creation  
 
 A custom dataset is generated from the [Spotify Tracks Dataset](https://huggingface.co/datasets/maharshipandya/spotify-tracks-dataset) by:  
 
@@ -37,7 +20,7 @@ A custom dataset is generated from the [Spotify Tracks Dataset](https://huggingf
 
 This dataset will be used to calculate a similarity score with the songs given as input
 
-## 2.1.2 Song Recommendation  
+## 2.2 Song Recommendation  
 
 Given a list of YouTube links to songs, the system follows these steps:  
 
@@ -74,6 +57,24 @@ Given a list of YouTube links to songs, the system follows these steps:
    - Computes similarity scores between the two dataframe
    - Recommends the top 5 most similar tracks, ranked by similarity.  
 
-## 2.1.3 Retrieving Recommended Song Details  
+## 2.3 Retrieving Recommended Song Details  
 
 Using the Spotify API, the system retrieves the song: **link, name, album, and artist** for the recommended tracks.  
+
+# 3 Run notebook
+clone repo:
+```bash
+git clone https://github.com/Kespers/kCHORDS-recommendation-system.gittata
+cd kCHORDS-recommendation-system
+```
+
+start container:
+```bash
+docker compose up --build
+```
+
+connect to jupyter server:
+```bash
+http://localhost:9999/notebooks/main.ipynb
+```
+

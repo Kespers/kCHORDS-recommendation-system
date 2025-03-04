@@ -1,0 +1,27 @@
+[
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=wnJ6LuUFpMo",
+        "Yt_Id": "wnJ6LuUFpMo",
+        "Artists": ["j balvin"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=XjwZAa2EjKA",
+        "Yt_Id": "XjwZAa2EjKA",
+        "Artists": ["katy perry"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=Io0fBr1XBUA",
+        "Yt_Id": "Io0fBr1XBUA",
+        "Artists": ["the chainsmokers"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=SxGLPVvNjvY",
+        "Yt_Id": "SxGLPVvNjvY",
+        "Artists": ["ava max"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=lhkSOFi8EdE",
+        "Yt_Id": "lhkSOFi8EdE",
+        "Artists": ["laura pausini"]
+    }
+]

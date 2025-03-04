@@ -12,5 +12,6 @@ python-Levenshtein==0.26.1
 requests==2.32.3
 pandas==2.0.3
 spotipy==2.25.0
-spacy
+spacy==3.5.4
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.5.0/en_core_web_sm-3.5.0.tar.gz
+matplotlib==3.9.4

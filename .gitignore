@@ -190,3 +190,8 @@ pyrightconfig.json
 songs
 df
 *.csv
+evaluation/recommends
+DATASET_TO_IMPORT.csv
+RAW_DATASET.csv
+notes.md
+TODO.md

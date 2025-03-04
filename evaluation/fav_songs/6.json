@@ -1,0 +1,27 @@
+[
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=A6Q-U4Pq9TA",
+        "Yt_Id": "A6Q-U4Pq9TA",
+        "Artists": ["marco castello","ele a"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=dOi0qnC8_sA",
+        "Yt_Id": "dOi0qnC8_sA",
+        "Artists": ["savana funk"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=E1tOV7y94DY",
+        "Yt_Id": "E1tOV7y94DY",
+        "Artists": ["Elis Regina","Tom Jobim"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=cKbBZbMOFLA",
+        "Yt_Id": "cKbBZbMOFLA",
+        "Artists": ["mannarino"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=A3m_SQFd3xg",
+        "Yt_Id": "A3m_SQFd3xg",
+        "Artists": ["al di meola"]
+    }
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=to8uZT8j8UI",
+        "Yt_Id": "to8uZT8j8UI",
+        "Artists": ["pinguini tattici nucleari"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=VPRjCeoBqrI",
+        "Yt_Id": "VPRjCeoBqrI",
+        "Artists": ["coldplay"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=-x39tplurzI",
+        "Yt_Id": "-x39tplurzI",
+        "Artists": ["pinguini tattici nucleari"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=jODrVofka54",
+        "Yt_Id": "jODrVofka54",
+        "Artists": ["maneskin"]
+    },
+    {
+        "Yt_Link": "https://www.youtube.com/watch?v=3sbI6WxCoK4",
+        "Yt_Id": "3sbI6WxCoK4",
+        "Artists": ["gemitaiz"]
+    }
+]
